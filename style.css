@@ -6,6 +6,12 @@ body{
 h1{
 	font-family:script;
 	font-size:40px;
+	background-image: linear-gradient(black, turquoise);
+	background-clip: text;
+	-webkit-background-clip:text;
+	-moz-background-clip:text;
+	-webkit-text-fill-color:transparent;
+	-moz-text-fill-color:transparent;
 }
 p{
 text-decoration:line-through;
